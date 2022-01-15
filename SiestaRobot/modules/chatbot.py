@@ -58,9 +58,9 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Siesta AI Already Activated In This Chat")
+            await lel.edit("ichigo AI Already Activated In This Chat")
             return
-        await lel.edit(f"Siesta AI Actived by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"ichigo AI Actived by {message.from_user.mention()} for users in {message.chat.title}")
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
