@@ -82,7 +82,6 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-
 SIESTA_IMG = "https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg"
 
 PM_START_TEXT = """
@@ -92,6 +91,7 @@ Hey I am ichigo  [ㅤ](https://telegra.ph/file/fbb89eb334941678e2c5a.mp4)
 ️➖➖➖➖➖➖➖➖➖➖➖➖➖
 ☉ ×Click the button below for more.
 """
+
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @saint_foire \
  Supporting isnt always financial! \
