@@ -28,7 +28,6 @@ google-api-python-client
 googletrans==4.0.0-rc1
 google-trans-new==1.1.9
 jikanpy
-speedtest-cli
 coffeehouse
 regex
 bleach
@@ -48,8 +47,6 @@ TgCrypto
 Pyrogram
 PyDictionary
 git+https://github.com/Sorrybabe/downloader
-youtube_search_python==1.4.9
-youtube_search
 lyrics_extractor
 asyncio
 cloudscraper
